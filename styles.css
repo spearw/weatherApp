@@ -1,0 +1,30 @@
+.weather{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px black solid;
+    padding: 1rem 0;
+}
+
+.container{
+    display: block;
+}
+
+.formContainer{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.formContainer > div{
+    padding-bottom: 1rem;
+}
+
+#cityName{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+img{
+    width: 100%;
+    max-height: 70vh;
+}

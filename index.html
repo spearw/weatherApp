@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Weather App</title>
+    <meta name="description" content="Simple Weather App">
+    <meta name="author" content="William Spear">
+
+    <link rel="stylesheet" href="styles.css?v=1.0">
+
+</head>
+
+<body onload="updateHTML()">
+    <img src="#" />
+    <div class="container">
+        <div id="cityName"></div>
+        <div class="weather"><span id = "currentWeather"></span> <span id = "humidity"></span> <span id = "cloudPercent"></span> <span id = "temp"></span></div>
+    </div>
+    <div class = "formContainer">
+        <div>
+            Search: <input type="text" name="fname" value="London"><br>
+        </div>
+        <button onclick="updateHTML()">Search Weather!</button>
+    </div>
+<script src="script.js">
+</script>
+</body>
+</html>
